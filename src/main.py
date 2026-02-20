@@ -17,7 +17,8 @@ def main():
 	"""
  
 	# url
-	url = "https://fr.wikipedia.org/wiki/Intelligence_artificielle"	
+	url = input("Entrez l'url à analyser: \n")
+ 
 	# chemin absolu du projet
 	os.environ["SCRAPATH"] = os.path.dirname(__file__)
 

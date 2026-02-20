@@ -7,7 +7,7 @@ def create_logger():
     '''
     
     logging.basicConfig(
-    	level=logging.DEBUG, # Niveau minimum affiché (défaut : info)
+    	level=logging.INFO, # Niveau minimum affiché (défaut : info)
     	format="%(asctime)s - %(levelname)s - %(message)s",  # Format des messages
     	filename=os.path.join(os.environ.get("SCRAPATH"), "journal.log"), # Sortie dans un fichier (défaut : sur la console)
     	filemode="w" 
