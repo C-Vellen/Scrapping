@@ -6,49 +6,56 @@ from exporter import export
 
 
 
+def main():
+	"""
+	Programme principal : lance les fonctions:
+	- create_logger: créé le logger pour écrire le journal
+	- fetcher: récupère le contenu de la page.
+	- year_parser: analyse les années trouvées dans la page
+	- url_parser: analyse les urls trouvées dans la page
+	- export : envoie les résultats dans un fichier json
+	"""
+ 
+	# url
+	url = "https://fr.wikipedia.org/wiki/Intelligence_artificielle"	
+	# chemin absolu du projet
+	os.environ["SCRAPATH"] = os.path.dirname(__file__)
+
+	# logger
+	logger_main = create_logger()
+	logger_main.info(f"Chemin projet: {os.environ.get("SCRAPATH")}")
+	logger_main.info(f"URL demandée: {url}")
+
+	# fetch
+	response = fetch(url)
+	if response["ok"]:
+		message = f"status: {response["status"]} | size: {response["size"]}"
+		logger_main.info(message)
+  
+		# parse years    
+		n = 5 # pour le calcul du top n des années les plus fréquentes
+		year_count, top_years = year_parser(response["body"], n) 
+		year_display = [f"\t\tannée {y}: {c:>3} occurence{'s'*(c>1)}" for y,c in year_count.items()]
+		logger_main.info("Occurences de chaque année:\n" + "\n".join(year_display))
+
+		# top_years = top_frequent_years(year_count, n)
+		top_year_display = [f"\t\tannée {y}: {c:>3} occurence{'s'*(c>1)}" for y,c in top_years]
+		logger_main.info(f"{n} années les plus fréquentes:\n" + "\n".join(top_year_display))
+
+		# parse urls
+		prefix = re.split(r'(?<!/)/(?!/)', url)[0]		# prefix de l'url pour rendre les urls absolues
+		url_list = url_parser(response["body"], prefix)
+		logger_main.info("Liste des url utilisées:\n\t\t" + "\n\t\t".join(url_list))
+
+		# sauvegarde json:
+		export_file = os.path.join(os.environ.get("SCRAPATH"), "export.json")
+		export(export_file, url, year_count, top_years, url_list)
+
+	else:
+		logger_main.warning(f"site non trouvé --> error {response["status"]}")
+		
 
 
 
-# url
-url = "https://fr.wikipedia.org/wiki/Intelligence_artificielle"
-
-
-# chemin absolu du projet
-os.environ["SCRAPATH"] = os.path.dirname(__file__)
-
-# logger
-logger_main = create_logger()
-logger_main.info(f"Chemin projet: {os.environ.get("SCRAPATH")}")
-logger_main.info(f"URL demandée: {url}")
-
-# fetch
-response = fetch(url)
-if response["ok"]:
-    message = f"status: {response["status"]} | size: {response["size"]}"
-    logger_main.info(message)
-else:
-    logger_main.warning(f"site non trouvé --> error {response["status"]}")
-    
-
-# parse years    
-n = 5 # pour le calcul du top n des années les plus fréquentes
-year_count, top_years = year_parser(response["body"], n) 
-
-year_display = [f"\t\tannée {y}: {c:>3} occurence{'s'*(c>1)}" for y,c in year_count.items()]
-logger_main.info("Occurences de chaque année:\n" + "\n".join(year_display))
-
-
-# top_years = top_frequent_years(year_count, n)
-top_year_display = [f"\t\tannée {y}: {c:>3} occurence{'s'*(c>1)}" for y,c in top_years]
-logger_main.info(f"{n} années les plus fréquentes:\n" + "\n".join(top_year_display))
-
-
-# parse urls
-prefix = re.split(r'(?<!/)/(?!/)', url)[0]		# prefix de l'url pour rendre les urls absolues
-url_list = url_parser(response["body"], prefix)
-logger_main.info("Liste des url utilisées:\n\t\t" + "\n\t\t".join(url_list))
-
-
-# sauvegarde json:
-export_file = os.path.join(os.environ.get("SCRAPATH"), "export.json")
-export(export_file, url, year_count, top_years, url_list)
+if __name__ == "__main__":
+    main()
