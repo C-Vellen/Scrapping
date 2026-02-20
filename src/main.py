@@ -1,4 +1,5 @@
-import logging, re
+import os, re
+from logger import create_logger
 from fetcher import fetch
 from parser import year_parser, url_parser
 from exporter import export
@@ -6,25 +7,24 @@ from exporter import export
 
 
 
-# preparation logs
-logging.basicConfig(
-	level=logging.DEBUG, # Niveau minimum affiché (défaut : info)
-	format="%(asctime)s - %(levelname)s - %(message)s",  # Format des messages
-	filename="app.log", # Sortie dans un fichier (défaut : sur la console)
-	filemode="w" # Écriture (remplace le fichier existant) ou "a" pour ajouter
-)
-logger_main = logging.getLogger("main")
-logger_main.setLevel(logging.INFO)
-console_handler = logging.StreamHandler()
-logger_main.addHandler(console_handler)
+
 
 # url
 url = "https://fr.wikipedia.org/wiki/Intelligence_artificielle"
 
+
+# chemin absolu du projet
+os.environ["SCRAPATH"] = os.path.dirname(__file__)
+
+# logger
+logger_main = create_logger()
+logger_main.info(f"Chemin projet: {os.environ.get("SCRAPATH")}")
+logger_main.info(f"URL demandée: {url}")
+
 # fetch
 response = fetch(url)
 if response["ok"]:
-    message = f"status: {response["status"]} | size: {response["size"]} | body: {response["body"][:15]}"
+    message = f"status: {response["status"]} | size: {response["size"]}"
     logger_main.info(message)
 else:
     logger_main.warning(f"site non trouvé --> error {response["status"]}")
@@ -50,4 +50,5 @@ logger_main.info("Liste des url utilisées:\n\t\t" + "\n\t\t".join(url_list))
 
 
 # sauvegarde json:
-export("scrap.json", year_count, top_years, url_list)
+export_file = os.path.join(os.environ.get("SCRAPATH"), "export.json")
+export(export_file, url, year_count, top_years, url_list)

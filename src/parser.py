@@ -1,7 +1,7 @@
 # analyse le contenu du site
 import re
 from collections import Counter
-from functools import cmp_to_key
+
 
 def year_parser(content:str, n:int):
     '''
@@ -26,8 +26,7 @@ def year_parser(content:str, n:int):
     top_years = year_count.most_common(n)
    
     return dict(year_count), top_years
-    
-  
+      
 
 def url_parser(content:str, prefix:str):
     '''
