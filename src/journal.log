@@ -1,9 +1,9 @@
-2026-02-20 16:15:32,404 - INFO - Chemin projet: /home/data/pro/PROJETS/PORTFOLIO/Scrapping/src
-2026-02-20 16:15:32,404 - INFO - URL demandée: https://fr.wikipedia.org/wiki/Intelligence_artificielle
-2026-02-20 16:15:32,405 - DEBUG - Starting new HTTPS connection (1): fr.wikipedia.org:443
-2026-02-20 16:15:32,503 - DEBUG - https://fr.wikipedia.org:443 "GET /wiki/Intelligence_artificielle HTTP/1.1" 200 197129
-2026-02-20 16:15:32,583 - INFO - status: 200 | size: 1001208
-2026-02-20 16:15:32,590 - INFO - Occurences de chaque année:
+2026-02-20 17:13:15,463 - INFO - Chemin projet: /home/data/pro/PROJETS/PORTFOLIO/Scrapping/src
+2026-02-20 17:13:15,463 - INFO - URL demandée: https://fr.wikipedia.org/wiki/Intelligence_artificielle
+2026-02-20 17:13:15,464 - DEBUG - Starting new HTTPS connection (1): fr.wikipedia.org:443
+2026-02-20 17:13:15,564 - DEBUG - https://fr.wikipedia.org:443 "GET /wiki/Intelligence_artificielle HTTP/1.1" 200 197129
+2026-02-20 17:13:15,648 - INFO - status: 200 | size: 1001208
+2026-02-20 17:13:15,655 - INFO - Occurences de chaque année:
 		année 1950:   7 occurences
 		année 1954:   1 occurence
 		année 1955:   1 occurence
@@ -74,13 +74,13 @@
 		année 2044:   2 occurences
 		année 2045:   1 occurence
 		année 2048:   1 occurence
-2026-02-20 16:15:32,591 - INFO - 5 années les plus fréquentes:
+2026-02-20 17:13:15,655 - INFO - 5 années les plus fréquentes:
 		année 2023: 496 occurences
 		année 2024: 426 occurences
 		année 2025: 279 occurences
 		année 2017: 140 occurences
 		année 2020: 136 occurences
-2026-02-20 16:15:32,593 - INFO - Liste des url utilisées:
+2026-02-20 17:13:15,657 - INFO - Liste des url utilisées:
 		https://fr.wikipedia.org/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cext.wikimediamessages.styles%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022
 		https://fr.wikipedia.org/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022
 		https://upload.wikimedia.org
