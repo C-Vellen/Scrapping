@@ -1,7 +1,7 @@
+import logging, re
 from fetcher import fetch
 from parser import year_parser, url_parser
 from exporter import export
-import logging
 
 
 
@@ -20,7 +20,6 @@ logger_main.addHandler(console_handler)
 
 # url
 url = "https://fr.wikipedia.org/wiki/Intelligence_artificielle"
-prefix = "https://fr.wikipedia.org"
 
 # fetch
 response = fetch(url)
@@ -38,13 +37,14 @@ year_count, top_years = year_parser(response["body"], n)
 year_display = [f"\t\tannée {y}: {c:>3} occurence{'s'*(c>1)}" for y,c in year_count.items()]
 logger_main.info("Occurences de chaque année:\n" + "\n".join(year_display))
 
+
 # top_years = top_frequent_years(year_count, n)
 top_year_display = [f"\t\tannée {y}: {c:>3} occurence{'s'*(c>1)}" for y,c in top_years]
 logger_main.info(f"{n} années les plus fréquentes:\n" + "\n".join(top_year_display))
 
 
 # parse urls
-
+prefix = re.split(r'(?<!/)/(?!/)', url)[0]		# prefix de l'url pour rendre les urls absolues
 url_list = url_parser(response["body"], prefix)
 logger_main.info("Liste des url utilisées:\n\t\t" + "\n\t\t".join(url_list))
 
