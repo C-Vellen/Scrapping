@@ -1,7 +1,7 @@
-2026-02-20 11:14:55,536 - DEBUG - Starting new HTTPS connection (1): fr.wikipedia.org:443
-2026-02-20 11:14:55,636 - DEBUG - https://fr.wikipedia.org:443 "GET /wiki/Intelligence_artificielle HTTP/1.1" 200 197182
-2026-02-20 11:14:55,716 - INFO - status: 200 | size: 1001253 | body: <!DOCTYPE html>
-2026-02-20 11:14:55,721 - INFO - Occurences de chaque année:
+2026-02-20 15:04:00,355 - DEBUG - Starting new HTTPS connection (1): fr.wikipedia.org:443
+2026-02-20 15:04:00,455 - DEBUG - https://fr.wikipedia.org:443 "GET /wiki/Intelligence_artificielle HTTP/1.1" 200 197182
+2026-02-20 15:04:00,533 - INFO - status: 200 | size: 1001253 | body: <!DOCTYPE html>
+2026-02-20 15:04:00,539 - INFO - Occurences de chaque année:
 		année 1950:   7 occurences
 		année 1954:   1 occurence
 		année 1955:   1 occurence
@@ -71,13 +71,13 @@
 		année 2030:   2 occurences
 		année 2045:   1 occurence
 		année 2048:   1 occurence
-2026-02-20 11:14:55,722 - INFO - 5 années les plus fréquentes:
+2026-02-20 15:04:00,539 - INFO - 5 années les plus fréquentes:
 		année 2023: 496 occurences
 		année 2024: 426 occurences
 		année 2025: 279 occurences
 		année 2017: 140 occurences
 		année 2020: 136 occurences
-2026-02-20 11:14:55,724 - INFO - Liste des url utilisées:
+2026-02-20 15:04:00,541 - INFO - Liste des url utilisées:
 		https://fr.wikipedia.org/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cext.wikimediamessages.styles%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022
 		https://fr.wikipedia.org/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022
 		https://upload.wikimedia.org

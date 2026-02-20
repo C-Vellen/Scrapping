@@ -4,7 +4,10 @@ from collections import Counter
 from functools import cmp_to_key
 
 def year_parser(content:str, n:int):
-    '''Extrait du contenu les années et leurs ocuurences sous forme {2025:3, ...}'''
+    '''
+    Extrait du contenu les années et leurs ocuurences sous forme {2025:3, ...}
+    ainsi que les n années les plus fréquentes
+    '''
     
     # recherche des années :
     year_list = re.findall(r"[1-2]\d\d\d", content)
@@ -27,14 +30,15 @@ def year_parser(content:str, n:int):
   
 
 def url_parser(content:str, prefix:str):
+    '''
+    Extrait les liens urls contenus dans les href="..." et rend les liens absolus
+    '''
     
     # recherche des urls dans href="..."
     rough_url_list = re.findall( r"href=['\"]([^'\"]+)['\"]" , content)       # récupère que l'url dans (...)
-    # url_list = re.findall( r"href=['\"][^'\"]+['\"]" , content)           # récupère tout y compris href="..."
       
     # unicité des liens
     url_list = dict(Counter(rough_url_list)).keys()
-    
     
     # conversion lien relatifs en liens absolus
     def absolute_line(url):
