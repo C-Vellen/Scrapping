@@ -1,7 +1,9 @@
-2026-02-20 15:04:00,355 - DEBUG - Starting new HTTPS connection (1): fr.wikipedia.org:443
-2026-02-20 15:04:00,455 - DEBUG - https://fr.wikipedia.org:443 "GET /wiki/Intelligence_artificielle HTTP/1.1" 200 197182
-2026-02-20 15:04:00,533 - INFO - status: 200 | size: 1001253 | body: <!DOCTYPE html>
-2026-02-20 15:04:00,539 - INFO - Occurences de chaque année:
+2026-02-20 16:15:32,404 - INFO - Chemin projet: /home/data/pro/PROJETS/PORTFOLIO/Scrapping/src
+2026-02-20 16:15:32,404 - INFO - URL demandée: https://fr.wikipedia.org/wiki/Intelligence_artificielle
+2026-02-20 16:15:32,405 - DEBUG - Starting new HTTPS connection (1): fr.wikipedia.org:443
+2026-02-20 16:15:32,503 - DEBUG - https://fr.wikipedia.org:443 "GET /wiki/Intelligence_artificielle HTTP/1.1" 200 197129
+2026-02-20 16:15:32,583 - INFO - status: 200 | size: 1001208
+2026-02-20 16:15:32,590 - INFO - Occurences de chaque année:
 		année 1950:   7 occurences
 		année 1954:   1 occurence
 		année 1955:   1 occurence
@@ -69,15 +71,16 @@
 		année 2027:   6 occurences
 		année 2028:   3 occurences
 		année 2030:   2 occurences
+		année 2044:   2 occurences
 		année 2045:   1 occurence
 		année 2048:   1 occurence
-2026-02-20 15:04:00,539 - INFO - 5 années les plus fréquentes:
+2026-02-20 16:15:32,591 - INFO - 5 années les plus fréquentes:
 		année 2023: 496 occurences
 		année 2024: 426 occurences
 		année 2025: 279 occurences
 		année 2017: 140 occurences
 		année 2020: 136 occurences
-2026-02-20 15:04:00,541 - INFO - Liste des url utilisées:
+2026-02-20 16:15:32,593 - INFO - Liste des url utilisées:
 		https://fr.wikipedia.org/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cext.wikimediamessages.styles%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022
 		https://fr.wikipedia.org/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022
 		https://upload.wikimedia.org
@@ -104,179 +107,179 @@
 		https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=fr.wikipedia.org&amp;uselang=fr
 		https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Intelligence+artificielle
 		https://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Intelligence+artificielle
-		https://en.wikipedia.org/wiki/Artificial_intelligence
-		https://es.wikipedia.org/wiki/Inteligencia_artificial
-		https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
-		https://it.wikipedia.org/wiki/Intelligenza_artificiale
-		https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD
-		https://nl.wikipedia.org/wiki/Kunstmatige_intelligentie
-		https://pl.wikipedia.org/wiki/Sztuczna_inteligencja
-		https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial
-		https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
-		https://sv.wikipedia.org/wiki/Artificiell_intelligens
-		https://fa.wikipedia.org/wiki/%D9%87%D9%88%D8%B4_%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C
-		https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%A0%D7%94_%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA
-		https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2
-		https://hu.wikipedia.org/wiki/Mesters%C3%A9ges_intelligencia
-		https://fi.wikipedia.org/wiki/Teko%C3%A4ly
-		https://vi.wikipedia.org/wiki/Tr%C3%AD_tu%E1%BB%87_nh%C3%A2n_t%E1%BA%A1o
-		https://no.wikipedia.org/wiki/Kunstig_intelligens
-		https://uk.wikipedia.org/wiki/%D0%A8%D1%82%D1%83%D1%87%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82
-		https://ko.wikipedia.org/wiki/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5
-		https://ca.wikipedia.org/wiki/Intel%C2%B7lig%C3%A8ncia_artificial
-		https://cs.wikipedia.org/wiki/Um%C4%9Bl%C3%A1_inteligence
-		https://ro.wikipedia.org/wiki/Inteligen%C8%9B%C4%83_artificial%C4%83
-		https://da.wikipedia.org/wiki/Kunstig_intelligens
-		https://simple.wikipedia.org/wiki/Artificial_intelligence
-		https://bg.wikipedia.org/wiki/%D0%98%D0%B7%D0%BA%D1%83%D1%81%D1%82%D0%B2%D0%B5%D0%BD_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82
 		https://af.wikipedia.org/wiki/Kunsmatige_intelligensie
 		https://als.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz
+		https://am.wikipedia.org/wiki/%E1%88%B0%E1%8B%8D_%E1%88%A0%E1%88%AB%E1%88%BD_%E1%8B%A8%E1%88%9B%E1%88%B0%E1%89%A5_%E1%89%BD%E1%88%8E%E1%89%B3
 		https://an.wikipedia.org/wiki/Intelichencia_artificial
+		https://anp.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF
+		https://ar.wikipedia.org/wiki/%D8%B0%D9%83%D8%A7%D8%A1_%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A
+		https://ary.wikipedia.org/wiki/%D8%AF%D9%83%D8%A7_%D8%B5%D8%B7%D9%8A%D9%86%D8%A7%D8%B9%D9%8A
 		https://arz.wikipedia.org/wiki/%D8%B0%D9%83%D8%A7%D8%A1_%D8%B5%D9%86%D8%A7%D8%B9%D9%89
+		https://as.wikipedia.org/wiki/%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A7%B0%E0%A6%BF%E0%A6%AE_%E0%A6%AC%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%AE%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE
+		https://ast.wikipedia.org/wiki/Intelixencia_artificial
+		https://az.wikipedia.org/wiki/S%C3%BCni_intellekt
+		https://azb.wikipedia.org/wiki/%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C_%D8%B0%DA%A9%D8%A7
 		https://ba.wikipedia.org/wiki/%D0%AF%D2%BB%D0%B0%D0%BB%D0%BC%D0%B0_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
+		https://bar.wikipedia.org/wiki/Kinschtlicha_Intelligenz
 		https://bat-smg.wikipedia.org/wiki/D%C4%97rbt%C4%97ns_intelekts
-		https://be.wikipedia.org/wiki/%D0%A8%D1%82%D1%83%D1%87%D0%BD%D1%8B_%D1%96%D0%BD%D1%82%D1%8D%D0%BB%D0%B5%D0%BA%D1%82
+		https://bcl.wikipedia.org/wiki/Artipisyal_na_intelihensya
 		https://be-tarask.wikipedia.org/wiki/%D0%A8%D1%82%D1%83%D1%87%D0%BD%D1%8B_%D1%96%D0%BD%D1%82%D1%8D%D0%BB%D0%B5%D0%BA%D1%82
+		https://be.wikipedia.org/wiki/%D0%A8%D1%82%D1%83%D1%87%D0%BD%D1%8B_%D1%96%D0%BD%D1%82%D1%8D%D0%BB%D0%B5%D0%BA%D1%82
+		https://bew.wikipedia.org/wiki/Calakan_bikinan
+		https://bg.wikipedia.org/wiki/%D0%98%D0%B7%D0%BA%D1%83%D1%81%D1%82%D0%B2%D0%B5%D0%BD_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82
+		https://bh.wikipedia.org/wiki/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%AB%E0%A4%BF%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%B2_%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A5%87%E0%A4%B2%E0%A4%BF%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8
+		https://blk.wikipedia.org/wiki/%E1%80%89%E1%80%AC%E1%80%8F%E1%80%BA%E1%82%8F%E1%80%90%E1%80%AF%EA%A9%BB
 		https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE_%E0%A6%AC%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%AE%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE
+		https://bo.wikipedia.org/wiki/%E0%BD%98%E0%BD%B2%E0%BC%8B%E0%BD%96%E0%BD%9F%E0%BD%BC%E0%BD%A6%E0%BC%8B%E0%BD%A2%E0%BD%B2%E0%BD%82%E0%BC%8B%E0%BD%93%E0%BD%B4%E0%BD%A6%E0%BC%8D
+		https://br.wikipedia.org/wiki/Naouegezh_artifisiel
+		https://bs.wikipedia.org/wiki/Umjetna_inteligencija
+		https://bxr.wikipedia.org/wiki/%D0%A5%D1%8D%D0%BC%D1%8D%D0%BB_%D0%BE%D1%8E%D1%83%D0%BD
+		https://ca.wikipedia.org/wiki/Intel%C2%B7lig%C3%A8ncia_artificial
+		https://ceb.wikipedia.org/wiki/Intelihensiya_artipisyal
 		https://ckb.wikipedia.org/wiki/%DA%98%DB%8C%D8%B1%DB%8C%DB%8C_%D8%AF%DB%95%D8%B3%D8%AA%DA%A9%D8%B1%D8%AF
+		https://crh.wikipedia.org/wiki/Suniy_zek%C3%A2
+		https://cs.wikipedia.org/wiki/Um%C4%9Bl%C3%A1_inteligence
+		https://cv.wikipedia.org/wiki/%C4%82%D1%81%D0%BB%D0%B0%D0%B9%D0%BB%D0%B0%D0%BD%C4%83_%C4%83%D1%81%D1%82%C4%83%D0%BD
 		https://cy.wikipedia.org/wiki/Deallusrwydd_artiffisial
+		https://da.wikipedia.org/wiki/Kunstig_intelligens
+		https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz
 		https://diq.wikipedia.org/wiki/Viro_v%C4%B1ra%C5%9Ft%C4%B1k%C3%AAn
+		https://dtp.wikipedia.org/wiki/Kabaalan_Tinanda
 		https://el.wikipedia.org/wiki/%CE%A4%CE%B5%CF%87%CE%BD%CE%B7%CF%84%CE%AE_%CE%BD%CE%BF%CE%B7%CE%BC%CE%BF%CF%83%CF%8D%CE%BD%CE%B7
+		https://en.wikipedia.org/wiki/Artificial_intelligence
+		https://eo.wikipedia.org/wiki/Artefarita_intelekto
+		https://es.wikipedia.org/wiki/Inteligencia_artificial
 		https://et.wikipedia.org/wiki/Tehisintellekt
 		https://eu.wikipedia.org/wiki/Adimen_artifizial
+		https://ext.wikipedia.org/wiki/Enteligencia_artificial
+		https://fa.wikipedia.org/wiki/%D9%87%D9%88%D8%B4_%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C
+		https://fi.wikipedia.org/wiki/Teko%C3%A4ly
 		https://fiu-vro.wikipedia.org/wiki/Kunstm%C3%B5istus
+		https://fon.wikipedia.org/wiki/N%C7%94nyw%C9%9B_gb%C9%9Bt%C9%94_%C9%96%C9%94hun_t%C9%94n
+		https://frr.wikipedia.org/wiki/Konstelk_Inteligens
 		https://fur.wikipedia.org/wiki/Inteligjence_artifici%C3%A2l
 		https://ga.wikipedia.org/wiki/Intleacht_shaorga
 		https://gan.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+		https://gcr.wikipedia.org/wiki/Ent%C3%A9lijans_artifisy%C3%A8l
+		https://gd.wikipedia.org/wiki/Tuigse_inntealta
 		https://gl.wikipedia.org/wiki/Intelixencia_artificial
 		https://gn.wikipedia.org/wiki/Ava_apopyre_arandu
+		https://gom.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%81%E0%A4%A7%E0%A5%8D%E0%A4%A6%E0%A5%80
+		https://gv.wikipedia.org/wiki/Far-in%C3%A7hynaght
+		https://ha.wikipedia.org/wiki/Kirkirar_Basira
+		https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%A0%D7%94_%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA
 		https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF
+		https://hif.wikipedia.org/wiki/Artificial_intelligence
 		https://hr.wikipedia.org/wiki/Umjetna_inteligencija
+		https://ht.wikipedia.org/wiki/Ent%C3%A8lijans_atifisy%C3%A8l
+		https://hu.wikipedia.org/wiki/Mesters%C3%A9ges_intelligencia
 		https://hy.wikipedia.org/wiki/%D4%B1%D6%80%D5%B0%D5%A5%D5%BD%D5%BF%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A2%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6
+		https://hyw.wikipedia.org/wiki/%D4%B1%D6%80%D5%B0%D5%A5%D5%BD%D5%BF%D5%A1%D5%AF%D5%A1%D5%B6_%D4%B2%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%AB%D6%82%D5%B6
 		https://ia.wikipedia.org/wiki/Intelligentia_artificial
+		https://iba.wikipedia.org/wiki/Pemintar_gaga
+		https://id.wikipedia.org/wiki/Kecerdasan_buatan
+		https://ie.wikipedia.org/wiki/Inteligentie_artificial
+		https://ig.wikipedia.org/wiki/%E1%BB%8Cg%E1%BB%A5g%E1%BB%A5_isi
 		https://ilo.wikipedia.org/wiki/Parbo_a_saririt
 		https://io.wikipedia.org/wiki/Artifical_inteligenteso
 		https://is.wikipedia.org/wiki/Gervigreind
+		https://it.wikipedia.org/wiki/Intelligenza_artificiale
+		https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD
 		https://jam.wikipedia.org/wiki/Aatifishal_intelijens
 		https://jbo.wikipedia.org/wiki/rutni_menli
 		https://jv.wikipedia.org/wiki/Kacerdhasan_gaw%C3%A9yan
 		https://ka.wikipedia.org/wiki/%E1%83%AE%E1%83%94%E1%83%9A%E1%83%9D%E1%83%95%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%9A%E1%83%94%E1%83%A5%E1%83%A2%E1%83%98
+		https://kaa.wikipedia.org/wiki/Jasalma_intellekt
+		https://ki.wikipedia.org/wiki/%C5%A8%C5%A9g%C4%A9_wa_Kanyonde
 		https://kk.wikipedia.org/wiki/%D0%96%D0%B0%D1%81%D0%B0%D0%BD%D0%B4%D1%8B_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
+		https://km.wikipedia.org/wiki/%E1%9E%94%E1%9E%89%E1%9F%92%E1%9E%89%E1%9E%B6%E1%9E%9F%E1%9E%B7%E1%9E%94%E1%9F%92%E1%9E%94%E1%9E%93%E1%9E%B7%E1%9E%98%E1%9F%92%E1%9E%98%E1%9E%B7%E1%9E%8F
 		https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%83%E0%B2%A4%E0%B2%95_%E0%B2%AC%E0%B3%81%E0%B2%A6%E0%B3%8D%E0%B2%A7%E0%B2%BF%E0%B2%AE%E0%B2%A4%E0%B3%8D%E0%B2%A4%E0%B3%86
+		https://ko.wikipedia.org/wiki/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5
+		https://ks.wikipedia.org/wiki/%D8%A8%D9%8E%D9%86%D9%B2%D9%88%D9%85%D9%95%DA%98_%D8%B0%D9%8E%DB%81%D9%B2%D9%86%D9%90%DB%8C%D9%8E%D8%AA%DA%BE
 		https://ksh.wikipedia.org/wiki/Artificial_Intelligence
+		https://ku.wikipedia.org/wiki/J%C3%AEriya_destkar%C3%AE
 		https://ky.wikipedia.org/wiki/%D0%96%D0%B0%D1%81%D0%B0%D0%BB%D0%BC%D0%B0_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
 		https://la.wikipedia.org/wiki/Intellegentia_artificialis
+		https://lb.wikipedia.org/wiki/K%C3%ABnschtlech_Intelligenz
 		https://li.wikipedia.org/wiki/K%C3%B3nsmaesige_intelligentie
+		https://lij.wikipedia.org/wiki/Intelligensa_artifi%C3%A7iale
+		https://lmo.wikipedia.org/wiki/Intelligenza_artificiala
+		https://lo.wikipedia.org/wiki/%E0%BA%9B%E0%BA%B1%E0%BA%99%E0%BA%8D%E0%BA%B2%E0%BA%9B%E0%BA%B0%E0%BA%94%E0%BA%B4%E0%BA%94
 		https://lt.wikipedia.org/wiki/Dirbtinis_intelektas
 		https://lv.wikipedia.org/wiki/M%C4%81ksl%C4%ABgais_intelekts
+		https://mad.wikipedia.org/wiki/Kecerdasan_buatan
+		https://mg.wikipedia.org/wiki/Haranitan-tsaina_voatr%27_olombelona
+		https://min.wikipedia.org/wiki/Kacerdasan_buatan
 		https://mk.wikipedia.org/wiki/%D0%92%D0%B5%D1%88%D1%82%D0%B0%D1%87%D0%BA%D0%B0_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D0%BD%D1%86%D0%B8%D1%98%D0%B0
+		https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B4%BF%E2%80%8D%E0%B5%BC%E0%B4%AE%E0%B5%8D%E0%B4%AE%E0%B4%BF%E0%B4%A4_%E0%B4%AC%E0%B5%81%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BF
 		https://mn.wikipedia.org/wiki/%D0%A5%D0%B8%D0%B9%D0%BC%D1%8D%D0%BB_%D0%BE%D1%8E%D1%83%D0%BD
 		https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%AE%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE
 		https://ms.wikipedia.org/wiki/Kecerdasan_buatan
+		https://mt.wikipedia.org/wiki/Intelli%C4%A1enza_artifi%C4%8Bjali
 		https://my.wikipedia.org/wiki/%E1%80%89%E1%80%AC%E1%80%8F%E1%80%BA%E1%80%9B%E1%80%8A%E1%80%BA%E1%80%90%E1%80%AF
 		https://nds-nl.wikipedia.org/wiki/Keunstklookte
+		https://nds.wikipedia.org/wiki/K%C3%BCnstlike_Intelligenz
+		https://ne.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%8C%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE
 		https://new.wikipedia.org/wiki/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%AB%E0%A4%BF%E0%A4%B8%E0%A4%BF%E0%A4%AF%E0%A4%B2_%E0%A4%87%E0%A4%A8%E0%A5%8D%E0%A4%9F%E0%A5%87%E0%A4%B2%E0%A4%BF%E0%A4%9C%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%B8
+		https://nl.wikipedia.org/wiki/Kunstmatige_intelligentie
 		https://nn.wikipedia.org/wiki/Kunstig_intelligens
+		https://no.wikipedia.org/wiki/Kunstig_intelligens
+		https://nso.wikipedia.org/wiki/Bohlale_bja_Maitirelo
 		https://oc.wikipedia.org/wiki/Intellig%C3%A9ncia_artificiala
+		https://or.wikipedia.org/wiki/%E0%AC%86%E0%AC%B0%E0%AD%8D%E0%AC%9F%E0%AC%BF%E0%AC%AB%E0%AC%BF%E0%AC%B8%E0%AC%BF%E0%AC%86%E0%AC%B2_%E0%AC%87%E0%AC%A3%E0%AD%8D%E0%AC%9F%E0%AD%87%E0%AC%B2%E0%AC%BF%E0%AC%9C%E0%AD%87%E0%AC%A8%E0%AD%8D%E0%AC%B8
+		https://pa.wikipedia.org/wiki/%E0%A8%AC%E0%A8%A3%E0%A8%BE%E0%A8%B5%E0%A8%9F%E0%A9%80_%E0%A8%AC%E0%A9%81%E0%A9%B1%E0%A8%A7%E0%A9%80
+		https://pcd.wikipedia.org/wiki/Int%C3%A9rligince_artificielle
+		https://pl.wikipedia.org/wiki/Sztuczna_inteligencja
+		https://pms.wikipedia.org/wiki/Inteligensa_Artifissial
 		https://pnb.wikipedia.org/wiki/%D8%A8%D9%86%D8%A7%D8%A6%DB%8C_%DA%AF%D8%A6%DB%8C_%D8%B0%DB%81%D8%A7%D9%86%D8%AA
+		https://ps.wikipedia.org/wiki/%D9%85%D8%B5%D9%86%D9%88%D8%B9%D9%8A_%DA%81%D9%8A%D8%B1%DA%A9%D8%AA%DB%8C%D8%A7
+		https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial
+		https://qu.wikipedia.org/wiki/Wallpasqa_yachay
+		https://ro.wikipedia.org/wiki/Inteligen%C8%9B%C4%83_artificial%C4%83
+		https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
 		https://rue.wikipedia.org/wiki/%D0%A3%D0%BC%D0%B5%D0%BB%D0%B0_%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D1%96%D2%91%D0%B5%D0%BD%D1%86%D1%96%D1%8F
+		https://sa.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%AE%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE
 		https://sah.wikipedia.org/wiki/%D0%9E%D2%A5%D0%BE%D2%BB%D1%83%D1%83_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
+		https://scn.wikipedia.org/wiki/Ntilliggenza_artificiali
+		https://sco.wikipedia.org/wiki/Artifeecial_intelligence
+		https://sd.wikipedia.org/wiki/%DA%BE%D9%BF%D8%B1%D8%A7%DA%8C%D9%88_%D8%B0%DA%BE%D8%A7%D9%86%D8%AA
+		https://sg.wikipedia.org/wiki/Artificial_intelligence
 		https://sh.wikipedia.org/wiki/Vje%C5%A1ta%C4%8Dka_inteligencija
+		https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%98%E0%B6%AD%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%93%E0%B6%B8_%E0%B6%B6%E0%B7%94%E0%B6%AF%E0%B7%8A%E0%B6%B0%E0%B7%92%E0%B6%BA
+		https://simple.wikipedia.org/wiki/Artificial_intelligence
 		https://sk.wikipedia.org/wiki/Umel%C3%A1_inteligencia
 		https://sl.wikipedia.org/wiki/Umetna_inteligenca
 		https://sq.wikipedia.org/wiki/Inteligjenca_artificiale
+		https://sr.wikipedia.org/wiki/%D0%92%D0%B5%D1%88%D1%82%D0%B0%D1%87%D0%BA%D0%B0_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D0%BD%D1%86%D0%B8%D1%98%D0%B0
+		https://sv.wikipedia.org/wiki/Artificiell_intelligens
+		https://sw.wikipedia.org/wiki/Akili_mnemba
+		https://syl.wikipedia.org/wiki/%EA%A0%80%EA%A0%89%EA%A0%86%EA%A0%9F%EA%A0%A3_%EA%A0%80%EA%A0%87%EA%A0%9F%EA%A0%96%EA%A0%A3%EA%A0%9E
+		https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AF%88_%E0%AE%A8%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%A3%E0%AE%B1%E0%AE%BF%E0%AE%B5%E0%AF%81
+		https://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%83%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF%E0%B0%AE_%E0%B0%AE%E0%B1%87%E0%B0%A7%E0%B0%B8%E0%B1%8D%E0%B0%B8%E0%B1%81
+		https://tg.wikipedia.org/wiki/%D2%B2%D1%83%D1%88%D0%B8_%D0%BC%D0%B0%D1%81%D0%BD%D1%83%D1%8A%D3%A3
 		https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C
 		https://tk.wikipedia.org/wiki/%C3%9Dasama_akyl
+		https://tl.wikipedia.org/wiki/Artipisyal_na_katalinuhan
+		https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2
 		https://tt.wikipedia.org/wiki/%D0%AF%D1%81%D0%B0%D0%BB%D0%BC%D0%B0_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82
+		https://ty.wikipedia.org/wiki/Intelligence_artificiel
+		https://ug.wikipedia.org/wiki/%D8%B3%DB%88%D9%86%D8%A6%D9%89_%D8%A6%D9%89%D8%AF%D9%89%D8%B1%D8%A7%D9%83
+		https://uk.wikipedia.org/wiki/%D0%A8%D1%82%D1%83%D1%87%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82
 		https://ur.wikipedia.org/wiki/%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C_%D8%B0%DB%81%D8%A7%D9%86%D8%AA
+		https://uz.wikipedia.org/wiki/Sun%CA%BCiy_intellekt
+		https://vec.wikipedia.org/wiki/Inte%C5%82ijensa_artifisa%C5%82e
+		https://vi.wikipedia.org/wiki/Tr%C3%AD_tu%E1%BB%87_nh%C3%A2n_t%E1%BA%A1o
+		https://wa.wikipedia.org/wiki/S%C3%BBtist%C3%A9_%C3%A9ndjolike
 		https://war.wikipedia.org/wiki/Intelihensya_artipisyal
+		https://wuu.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+		https://xmf.wikipedia.org/wiki/%E1%83%AE%E1%83%94%E1%83%9A%E1%83%A3%E1%83%90%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%9A%E1%83%94%E1%83%A5%E1%83%A2%E1%83%98
 		https://yi.wikipedia.org/wiki/%D7%A7%D7%99%D7%A0%D7%A1%D7%98%D7%9C%D7%A2%D7%9B%D7%A2_%D7%90%D7%99%D7%A0%D7%98%D7%A2%D7%9C%D7%99%D7%92%D7%A2%D7%A0%D7%A5
+		https://zgh.wikipedia.org/wiki/%E2%B5%9C%E2%B5%89%E2%B5%96%E2%B5%89%E2%B5%99%E2%B5%9C_%E2%B5%9C%E2%B4%B0%E2%B5%99%E2%B5%8E%E2%B4%B3%E2%B5%93%E2%B5%94%E2%B5%9C
+		https://zh-classical.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
 		https://zh-min-nan.wikipedia.org/wiki/J%C3%AEn-kang_t%C3%AC-l%C3%AAng
 		https://zh-yue.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
-		https://sco.wikipedia.org/wiki/Artifeecial_intelligence
-		https://am.wikipedia.org/wiki/%E1%88%B0%E1%8B%8D_%E1%88%A0%E1%88%AB%E1%88%BD_%E1%8B%A8%E1%88%9B%E1%88%B0%E1%89%A5_%E1%89%BD%E1%88%8E%E1%89%B3
-		https://ast.wikipedia.org/wiki/Intelixencia_artificial
-		https://bxr.wikipedia.org/wiki/%D0%A5%D1%8D%D0%BC%D1%8D%D0%BB_%D0%BE%D1%8E%D1%83%D0%BD
-		https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%98%E0%B6%AD%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%93%E0%B6%B8_%E0%B6%B6%E0%B7%94%E0%B6%AF%E0%B7%8A%E0%B6%B0%E0%B7%92%E0%B6%BA
-		https://wuu.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
-		https://or.wikipedia.org/wiki/%E0%AC%86%E0%AC%B0%E0%AD%8D%E0%AC%9F%E0%AC%BF%E0%AC%AB%E0%AC%BF%E0%AC%B8%E0%AC%BF%E0%AC%86%E0%AC%B2_%E0%AC%87%E0%AC%A3%E0%AD%8D%E0%AC%9F%E0%AD%87%E0%AC%B2%E0%AC%BF%E0%AC%9C%E0%AD%87%E0%AC%A8%E0%AD%8D%E0%AC%B8
-		https://cv.wikipedia.org/wiki/%C4%82%D1%81%D0%BB%D0%B0%D0%B9%D0%BB%D0%B0%D0%BD%C4%83_%C4%83%D1%81%D1%82%C4%83%D0%BD
-		https://eo.wikipedia.org/wiki/Artefarita_intelekto
-		https://bs.wikipedia.org/wiki/Umjetna_inteligencija
-		https://as.wikipedia.org/wiki/%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A7%B0%E0%A6%BF%E0%A6%AE_%E0%A6%AC%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%AE%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE
-		https://ht.wikipedia.org/wiki/Ent%C3%A8lijans_atifisy%C3%A8l
-		https://ug.wikipedia.org/wiki/%D8%B3%DB%88%D9%86%D8%A6%D9%89_%D8%A6%D9%89%D8%AF%D9%89%D8%B1%D8%A7%D9%83
-		https://gcr.wikipedia.org/wiki/Ent%C3%A9lijans_artifisy%C3%A8l
-		https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B4%BF%E2%80%8D%E0%B5%BC%E0%B4%AE%E0%B5%8D%E0%B4%AE%E0%B4%BF%E0%B4%A4_%E0%B4%AC%E0%B5%81%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BF
-		https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz
-		https://ne.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%8C%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE
-		https://mad.wikipedia.org/wiki/Kecerdasan_buatan
-		https://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%83%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF%E0%B0%AE_%E0%B0%AE%E0%B1%87%E0%B0%A7%E0%B0%B8%E0%B1%8D%E0%B0%B8%E0%B1%81
-		https://crh.wikipedia.org/wiki/Suniy_zek%C3%A2
-		https://ie.wikipedia.org/wiki/Inteligentie_artificial
-		https://ps.wikipedia.org/wiki/%D9%85%D8%B5%D9%86%D9%88%D8%B9%D9%8A_%DA%81%D9%8A%D8%B1%DA%A9%D8%AA%DB%8C%D8%A7
-		https://azb.wikipedia.org/wiki/%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C_%D8%B0%DA%A9%D8%A7
-		https://gd.wikipedia.org/wiki/Tuigse_inntealta
-		https://lmo.wikipedia.org/wiki/Intelligenza_artificiala
-		https://ig.wikipedia.org/wiki/%E1%BB%8Cg%E1%BB%A5g%E1%BB%A5_isi
+		https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
 		https://zu.wikipedia.org/wiki/UHlakahlisombulu
-		https://frr.wikipedia.org/wiki/Konstelk_Inteligens
-		https://ty.wikipedia.org/wiki/Intelligence_artificiel
-		https://bo.wikipedia.org/wiki/%E0%BD%98%E0%BD%B2%E0%BC%8B%E0%BD%96%E0%BD%9F%E0%BD%BC%E0%BD%A6%E0%BC%8B%E0%BD%A2%E0%BD%B2%E0%BD%82%E0%BC%8B%E0%BD%93%E0%BD%B4%E0%BD%A6%E0%BC%8D
-		https://ar.wikipedia.org/wiki/%D8%B0%D9%83%D8%A7%D8%A1_%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A
-		https://mt.wikipedia.org/wiki/Intelli%C4%A1enza_artifi%C4%8Bjali
-		https://xmf.wikipedia.org/wiki/%E1%83%AE%E1%83%94%E1%83%9A%E1%83%A3%E1%83%90%E1%83%9C%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%9A%E1%83%94%E1%83%A5%E1%83%A2%E1%83%98
-		https://hyw.wikipedia.org/wiki/%D4%B1%D6%80%D5%B0%D5%A5%D5%BD%D5%BF%D5%A1%D5%AF%D5%A1%D5%B6_%D4%B2%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%AB%D6%82%D5%B6
-		https://uz.wikipedia.org/wiki/Sun%CA%BCiy_intellekt
-		https://ary.wikipedia.org/wiki/%D8%AF%D9%83%D8%A7_%D8%B5%D8%B7%D9%8A%D9%86%D8%A7%D8%B9%D9%8A
-		https://tl.wikipedia.org/wiki/Artipisyal_na_katalinuhan
-		https://br.wikipedia.org/wiki/Naouegezh_artifisiel
-		https://bar.wikipedia.org/wiki/Kinschtlicha_Intelligenz
-		https://wa.wikipedia.org/wiki/S%C3%BBtist%C3%A9_%C3%A9ndjolike
-		https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AF%88_%E0%AE%A8%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%A3%E0%AE%B1%E0%AE%BF%E0%AE%B5%E0%AF%81
-		https://az.wikipedia.org/wiki/S%C3%BCni_intellekt
-		https://gv.wikipedia.org/wiki/Far-in%C3%A7hynaght
-		https://ext.wikipedia.org/wiki/Enteligencia_artificial
-		https://bcl.wikipedia.org/wiki/Artipisyal_na_intelihensya
-		https://lb.wikipedia.org/wiki/K%C3%ABnschtlech_Intelligenz
-		https://fon.wikipedia.org/wiki/N%C7%94nyw%C9%9B_gb%C9%9Bt%C9%94_%C9%96%C9%94hun_t%C9%94n
-		https://sr.wikipedia.org/wiki/%D0%92%D0%B5%D1%88%D1%82%D0%B0%D1%87%D0%BA%D0%B0_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%B8%D0%B3%D0%B5%D0%BD%D1%86%D0%B8%D1%98%D0%B0
-		https://ki.wikipedia.org/wiki/%C5%A8%C5%A9g%C4%A9_wa_Kanyonde
-		https://nds.wikipedia.org/wiki/K%C3%BCnstlike_Intelligenz
-		https://bew.wikipedia.org/wiki/Calakan_bikinan
-		https://hif.wikipedia.org/wiki/Artificial_intelligence
-		https://sw.wikipedia.org/wiki/Akili_mnemba
-		https://dtp.wikipedia.org/wiki/Kabaalan_Tinanda
-		https://kaa.wikipedia.org/wiki/Jasalma_intellekt
-		https://km.wikipedia.org/wiki/%E1%9E%94%E1%9E%89%E1%9F%92%E1%9E%89%E1%9E%B6%E1%9E%9F%E1%9E%B7%E1%9E%94%E1%9F%92%E1%9E%94%E1%9E%93%E1%9E%B7%E1%9E%98%E1%9F%92%E1%9E%98%E1%9E%B7%E1%9E%8F
-		https://ceb.wikipedia.org/wiki/Intelihensiya_artipisyal
-		https://vec.wikipedia.org/wiki/Inte%C5%82ijensa_artifisa%C5%82e
-		https://zgh.wikipedia.org/wiki/%E2%B5%9C%E2%B5%89%E2%B5%96%E2%B5%89%E2%B5%99%E2%B5%9C_%E2%B5%9C%E2%B4%B0%E2%B5%99%E2%B5%8E%E2%B4%B3%E2%B5%93%E2%B5%94%E2%B5%9C
-		https://pcd.wikipedia.org/wiki/Int%C3%A9rligince_artificielle
-		https://bh.wikipedia.org/wiki/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%BF%E0%A4%AB%E0%A4%BF%E0%A4%B6%E0%A4%BF%E0%A4%AF%E0%A4%B2_%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A5%87%E0%A4%B2%E0%A4%BF%E0%A4%9C%E0%A5%87%E0%A4%82%E0%A4%B8
-		https://ha.wikipedia.org/wiki/Kirkirar_Basira
-		https://mg.wikipedia.org/wiki/Haranitan-tsaina_voatr%27_olombelona
-		https://lij.wikipedia.org/wiki/Intelligensa_artifi%C3%A7iale
-		https://pms.wikipedia.org/wiki/Inteligensa_Artifissial
-		https://lo.wikipedia.org/wiki/%E0%BA%9B%E0%BA%B1%E0%BA%99%E0%BA%8D%E0%BA%B2%E0%BA%9B%E0%BA%B0%E0%BA%94%E0%BA%B4%E0%BA%94
-		https://syl.wikipedia.org/wiki/%EA%A0%80%EA%A0%89%EA%A0%86%EA%A0%9F%EA%A0%A3_%EA%A0%80%EA%A0%87%EA%A0%9F%EA%A0%96%EA%A0%A3%EA%A0%9E
-		https://sd.wikipedia.org/wiki/%DA%BE%D9%BF%D8%B1%D8%A7%DA%8C%D9%88_%D8%B0%DA%BE%D8%A7%D9%86%D8%AA
-		https://gom.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%81%E0%A4%A7%E0%A5%8D%E0%A4%A6%E0%A5%80
-		https://min.wikipedia.org/wiki/Kacerdasan_buatan
-		https://ku.wikipedia.org/wiki/J%C3%AEriya_destkar%C3%AE
-		https://blk.wikipedia.org/wiki/%E1%80%89%E1%80%AC%E1%80%8F%E1%80%BA%E1%82%8F%E1%80%90%E1%80%AF%EA%A9%BB
-		https://ks.wikipedia.org/wiki/%D8%A8%D9%8E%D9%86%D9%B2%D9%88%D9%85%D9%95%DA%98_%D8%B0%D9%8E%DB%81%D9%B2%D9%86%D9%90%DB%8C%D9%8E%D8%AA%DA%BE
-		https://zh-classical.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
-		https://sa.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%AE%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE
-		https://nso.wikipedia.org/wiki/Bohlale_bja_Maitirelo
-		https://sg.wikipedia.org/wiki/Artificial_intelligence
-		https://iba.wikipedia.org/wiki/Pemintar_gaga
-		https://scn.wikipedia.org/wiki/Ntilliggenza_artificiali
-		https://id.wikipedia.org/wiki/Kecerdasan_buatan
-		https://anp.wikipedia.org/wiki/%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE_%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF
-		https://qu.wikipedia.org/wiki/Wallpasqa_yachay
-		https://pa.wikipedia.org/wiki/%E0%A8%AC%E0%A8%A3%E0%A8%BE%E0%A8%B5%E0%A8%9F%E0%A9%80_%E0%A8%AC%E0%A9%81%E0%A9%B1%E0%A8%A7%E0%A9%80
-		https://tg.wikipedia.org/wiki/%D2%B2%D1%83%D1%88%D0%B8_%D0%BC%D0%B0%D1%81%D0%BD%D1%83%D1%8A%D3%A3
 		https://www.wikidata.org/wiki/Special:EntityPage/Q11660#sitelinks-wikipedia
 		https://fr.wikipedia.org/wiki/Intelligence_artificielle
 		https://fr.wikipedia.org/wiki/Discussion:Intelligence_artificielle
